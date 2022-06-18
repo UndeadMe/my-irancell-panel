@@ -32,6 +32,9 @@ body {
 .profile-box-desc {
     row-gap: 5px;
 }
+.user-name, .user-number {
+    color: var(--gray);
+}
 /* ---------------------------------- main ---------------------------------- */
 .main {
     
