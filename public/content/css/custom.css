@@ -1,0 +1,17 @@
+:root {
+    --white-50: #FFFFFF;
+    --white-100: #F7F7F7;
+}
+
+.flex {
+    display: flex;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
