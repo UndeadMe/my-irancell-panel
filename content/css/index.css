@@ -3,10 +3,17 @@
 body {
     background-color: var(--white-100);
     padding: 20px;
+    direction: rtl;
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 100vh;
+    height: 100vh;
 }
 /* -------------------------------- left side ------------------------------- */
 .left-side {
     width: 330px;
+    display: flex;
+    flex-direction: column;
 }
 .profile-box {
     direction: rtl;
@@ -20,7 +27,7 @@ body {
     width: 65px;
     height: 65px;
     padding: 6px;
-    background: var(--gold);
+    background: var(--gold-400);
     border-radius: 50%;
 }
 .user-profile {
@@ -33,7 +40,94 @@ body {
     row-gap: 5px;
 }
 .user-name, .user-number {
-    color: var(--gray);
+    color: var(--gray-650);
+}
+.sim-card-charge-box {
+    background-color: var(--gold-50);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+    height: 100%;
+}
+.sim-card-charge-title {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.radialProgressBar {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: var(--gold-50);
+    margin: 25px 0;
+}
+.radialProgressBar .overlay {
+    border-radius: 50%;
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    background: var(--gold-50);
+    display: flex;
+    color: #00A3FF;
+    align-items: center;
+    justify-content: center;
+}
+.progress-10 {
+    background-image: -webkit-linear-gradient(90deg, #E4EBEC 50%, transparent 50%), -webkit-linear-gradient(right, var(--gold-400) 50%, #E4EBEC 50%);
+}
+.charge-btn {
+    background-color: var(--gold-400);
+    width: 150px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: var(--white-50);
+    font-size: 1rem;
+    box-shadow: 0 0 8px var(--gold-400);
+    cursor: pointer;
+}
+.service-title {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+.active-service-box {
+    column-gap: 12px;
+    color: var(--gray-600);
+}
+.active-service-box {
+    margin-bottom: 30px;
+}
+.active-service-icon {
+    font-size: 1.4rem;
+    width: 40px;
+    height: 40px;
+    background: rgba(253, 199, 23, 0.2);
+    border-radius: 12px;
+    color: var(--gold-400);
+}
+.active-service-box-desc {
+    line-height: 25px;
+}
+.download-app-box {
+    position: relative;
+    width: 100%;
+    top: 100%;
+    transform: translateY(-610%);
+    background-color: var(--white-50);
+    border-radius: 15px;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+.download-app-box img {
+    width: 50px;
+    image-rendering: pixelated;
+}
+.download-app-box h1 {
+    font-size: 1.2rem;
 }
 /* ---------------------------------- main ---------------------------------- */
 .main {

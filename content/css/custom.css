@@ -8,8 +8,12 @@
 :root {
     --white-50: #FFFFFF;
     --white-100: #f6f6f6;
-    --gray: #818181;
-    --gold: #FDC816;
+    
+    --gold-400: #FDC816;
+    --gold-50: #FFFCEF;
+    
+    --gray-650: #818181;
+    --gray-600: #707070;
 }
 *, body {
     font-family: Lalezar;
