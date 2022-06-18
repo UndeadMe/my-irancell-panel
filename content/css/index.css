@@ -86,7 +86,6 @@ body {
     color: var(--white-50);
     font-size: 1rem;
     box-shadow: 0 0 8px var(--gold-400);
-    cursor: pointer;
 }
 .service-title {
     margin-top: 35px;
@@ -149,7 +148,6 @@ body {
     overflow: hidden;
     align-items: flex-end;
     justify-content: end;
-    image-rendering: pixelated;
 }
 .main-overlay::before {
     content: '';
