@@ -1,0 +1,42 @@
+@import 'custom.css';
+
+body {
+    background-color: var(--white-100);
+    padding: 20px;
+}
+/* -------------------------------- left side ------------------------------- */
+.left-side {
+    width: 330px;
+}
+.profile-box {
+    direction: rtl;
+    background: var(--white-50);
+    padding: 15px 20px;
+    border-radius: 25px;
+    column-gap: 20px;
+}
+.profile-wrapper {
+    position: relative;
+    width: 65px;
+    height: 65px;
+    padding: 6px;
+    background: var(--gold);
+    border-radius: 50%;
+}
+.user-profile {
+    position: relative;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile-box-desc {
+    row-gap: 5px;
+}
+/* ---------------------------------- main ---------------------------------- */
+.main {
+    
+}
+/* --------------------------------- sidebar -------------------------------- */
+.sidebar {
+    
+}

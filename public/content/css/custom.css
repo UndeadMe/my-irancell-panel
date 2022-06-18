@@ -1,6 +1,9 @@
+@import 'css-reset.css';
+
 :root {
     --white-50: #FFFFFF;
-    --white-100: #F7F7F7;
+    --white-100: #f6f6f6;
+    --gold: #FDC816;
 }
 
 .flex {
@@ -14,4 +17,7 @@
 }
 .justify-content-between {
     justify-content: space-between;
+}
+.flex-column {
+    flex-direction: column;
 }
