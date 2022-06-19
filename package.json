@@ -1,0 +1,20 @@
+{
+  "name": "my-irancell-panel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Banana021s/my-irancell-panel.git"
+  },
+  "keywords": [],
+  "author": "Arash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Banana021s/my-irancell-panel/issues"
+  },
+  "homepage": "https://github.com/Banana021s/my-irancell-panel#readme"
+}
