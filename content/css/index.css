@@ -224,10 +224,32 @@ body {
     background-color: var(--white-50);
     padding: 20px 0;
 }
+.sidebar-brand {
+    margin-bottom: 30px;
+}
 .sidebar-brand span {
     background-color: var(--gold-400);
     padding: 5px 20px;
     margin-right: 10px;
     border-radius: 30px;
     font-size: 1.2rem;
+}
+.search-group {
+    width: 80%;
+    border: 2px solid var(--white-200);
+    border-radius: 12px;
+    overflow: hidden;
+}
+.search-input {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+}
+.search-input-icon {
+    margin-left: 10px;
+    transform: rotate(90deg);
+    color: var(--white-200);
+}
+.search-input::placeholder {
+    color: var(--white-200);
 }
