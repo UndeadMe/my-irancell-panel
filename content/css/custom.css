@@ -1,9 +1,5 @@
 @import 'css-reset.css';
-
-@font-face {
-    font-family: Lalezar;
-    src: url("../font/Lalezar-Regular.ttf");
-}
+@import url('custom-font.css');
 
 :root {
     --white-50: #FFFFFF;
@@ -18,6 +14,17 @@
     --gray-700: #626161;
 }
 *, body {
+    font-family: Vazir;
+}
+.vazir-fb {
+    font-family: Vazir;
+    font-weight: bolder;
+}
+.vazir-fl {
+    font-family: Vazir;
+    font-weight: lighter;
+}
+.lalezar-font {
     font-family: Lalezar;
 }
 .flex {
