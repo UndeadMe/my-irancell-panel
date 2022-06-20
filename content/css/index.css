@@ -168,6 +168,19 @@ body {
     border-radius: 3px;
     font-size: 1rem;
 }
+.chart {
+    position: relative;
+    background-color: var(--white-50);
+    border-radius: 20px;
+    margin-top: 25px;
+    padding: 30px;
+}
+.chart h1 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.3rem;
+}
 /* --------------------------------- sidebar -------------------------------- */
 .sidebar {
     width: 500px;
