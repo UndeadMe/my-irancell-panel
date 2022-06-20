@@ -253,3 +253,41 @@ body {
 .search-input::placeholder {
     color: var(--white-200);
 }
+.sidebar-menu {
+    width: 100%;
+    margin-top: 40px;
+    padding: 0 70px 0 0;
+}
+.sidebar-menu-item {
+    position: relative;
+    column-gap: 10px;
+    font-size: 1rem;
+    color: var(--gray-650);
+    font-size: 1.2rem;
+}
+.sidebar-menu-item:not(:first-child, :last-child)  {
+    margin-bottom: 18px;
+}
+.sidebar-menu-item.active {
+    color: #626161;
+}
+.sidebar-menu-item.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -80%;
+    width: 3px;
+    height: 50px;
+    background: var(--gold-400);
+}
+.sidebar-menu-item.active span {
+    color: var(--gold-400);
+}
+.sidebar-menu-item-breaker {
+    margin: 27px 0 14px 0;
+    font-size: 0.8rem;
+    color: var(--white-200);
+}
+.sidebar-menu-item.space-top {
+    margin-top: 50px;
+}
