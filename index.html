@@ -64,17 +64,63 @@
     <main class="main">
         <h1 class="main-title">صفحه اصلی</h1>
         
-        <div class="main-overlay flex flex-column">
+        <section class="main-overlay flex flex-column">
             <h1>اینهمه بسته بی سابقست!</h1>
             <button>اینجا چه خبره!</button>
-        </div>
+        </section>
 
-        <div class="chart">
+        <section class="chart">
             <h1>نمودار میزان مصرف کل</h1>
             <canvas id="myChart" height="100" aria-label="chart" role="img">
                 Your browser does not support the canvas element.
             </canvas>
-        </div>
+        </section>
+
+        <section class="recommend-packets">
+            <h1 class="recommend-packets-title">بسته های پیشنهادی مخصوص خود شما!</h1>
+
+            <table class="recommend-packets-table">
+                <tr>
+                    <th>تاریخ انقضا بسته</th>
+                    <th>نام بسته</th>
+                    <th>تخفیف</th>
+                    <th>قیمت</th>
+                </tr>
+                <tr>
+                    <td>14 شهریور 1401</td>
+                    <td>بسته اینترنت 3 ماهه</td>
+                    <td>20%</td>
+                    <td>130،000</td>
+                    <td>
+                        <button class="buy-packet-btn">
+                            خرید
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>12 خرداد 1401</td>
+                    <td>بسته ترکیبی هفته ای</td>
+                    <td>45%</td>
+                    <td>45،000</td>
+                    <td>
+                        <button class="buy-packet-btn">
+                            خرید
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>15 تیر 1401</td>
+                    <td>بسته اینترنت یک ماهه</td>
+                    <td>15%</td>
+                    <td>50،000</td>
+                    <td>
+                        <button class="buy-packet-btn">
+                            خرید
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </section>
     </main>
     <!-- sidebar -->
     <div class="sidebar"></div>
