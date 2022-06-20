@@ -2,7 +2,6 @@
 
 body {
     background-color: var(--white-100);
-    padding: 20px;
     direction: rtl;
     display: flex;
     flex-direction: row-reverse;
@@ -12,6 +11,7 @@ body {
 }
 /* -------------------------------- left side ------------------------------- */
 .left-side {
+    padding: 20px 0;
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -129,6 +129,7 @@ body {
 }
 /* ---------------------------------- main ---------------------------------- */
 .main {
+    padding: 20px 0;
     width: 100%;
 }
 .main-title {
@@ -220,4 +221,13 @@ body {
 /* --------------------------------- sidebar -------------------------------- */
 .sidebar {
     width: 500px;
+    background-color: var(--white-50);
+    padding: 20px 0;
+}
+.sidebar-brand span {
+    background-color: var(--gold-400);
+    padding: 5px 20px;
+    margin-right: 10px;
+    border-radius: 30px;
+    font-size: 1.2rem;
 }
