@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/regular.min.css">
-    <link rel="stylesheet" href="content/css/index.css">
+    <link rel="stylesheet" href="content/css/internet.css">
 </head>
 <body>
     <!-- left side -->
@@ -63,65 +63,43 @@
     </div>
     <!-- main -->
     <main class="main">
-        <h1 class="main-title lalezar-font">صفحه اصلی</h1>
-        
-        <section class="main-overlay flex flex-column">
-            <h1 class="lalezar-font">اینهمه بسته بی سابقست!</h1>
-            <button>اینجا چه خبره!</button>
-        </section>
-
-        <section class="chart">
-            <h1 class="lalezar-font">نمودار میزان مصرف کل</h1>
-            <canvas id="myChart" height="100" aria-label="chart" role="img">
-                Your browser does not support the canvas element.
-            </canvas>
-        </section>
+        <h1 class="main-title lalezar-font">خرید های من</h1>
 
         <section class="recommend-packets">
-            <h1 class="recommend-packets-title">بسته های پیشنهادی مخصوص خود شما!</h1>
+            <h1 class="recommend-packets-title">لیست شارژ ها</h1>
 
             <table class="recommend-packets-table">
                 <tr class="vazir-fb">
+                    <th>تاریخ خرید</th>
                     <th>تاریخ انقضا بسته</th>
                     <th>نام بسته</th>
-                    <th>تخفیف</th>
+                    <th>کوپن تخفیف</th>
                     <th>قیمت</th>
                 </tr>
                 <tr>
+                    <td>1 شهریور 1401</td>
                     <td>14 شهریور 1401</td>
                     <td>بسته اینترنت 3 ماهه</td>
                     <td>20%</td>
                     <td>130،000</td>
-                    <td>
-                        <button class="buy-packet-btn lalezar-font">
-                            خرید
-                        </button>
-                    </td>
                 </tr>
                 <tr>
+                    <td>2 خرداد 1401</td>
                     <td>12 خرداد 1401</td>
                     <td>بسته ترکیبی هفته ای</td>
                     <td>45%</td>
                     <td>45،000</td>
-                    <td>
-                        <button class="buy-packet-btn lalezar-font">
-                            خرید
-                        </button>
-                    </td>
                 </tr>
                 <tr>
                     <td>15 تیر 1401</td>
+                    <td>15 مرداد 1401</td>
                     <td>بسته اینترنت یک ماهه</td>
                     <td>15%</td>
                     <td>50،000</td>
-                    <td>
-                        <button class="buy-packet-btn lalezar-font">
-                            خرید
-                        </button>
-                    </td>
                 </tr>
             </table>
         </section>
+
     </main>
     <!-- sidebar -->
     <div class="sidebar flex align-items-center flex-column">
@@ -138,12 +116,12 @@
         </div>
 
         <ul class="sidebar-menu">
-            <li class="sidebar-menu-item flex align-items-center active">
+            <li class="sidebar-menu-item flex align-items-center">
                 <span><i class="fa-solid fa-house"></i></span>
                 <a href="index.html">صفحه اصلی</a>
             </li>
             <li class="sidebar-menu-item-breaker">سرویس ها</li>
-            <li class="sidebar-menu-item flex align-items-center">
+            <li class="sidebar-menu-item flex align-items-center active">
                 <span><i class="fa-solid fa-chart-pie"></i></span>
                 <a href="internet.html">خرید های من</a>
             </li>
@@ -174,9 +152,5 @@
             </li>
         </ul>
     </div>
-
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
-    <script src="content/js/index.js" type="module"></script>
 </body>
 </html>
